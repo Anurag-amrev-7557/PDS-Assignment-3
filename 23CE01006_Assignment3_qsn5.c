@@ -11,10 +11,10 @@ int main() {
         fine = 1 * days;
     }
     if(days >= 6 && days <= 10) {
-        fine = 2 * days;
+        fine = 5 + 2*(days - 5);
     }
     if(days >= 10) {
-        fine = 5 * days;
+        fine = 5 + 10 + 5 * (days - 10);
     }
     if(days >= 30) {
         printf("Your memebership is cancelled.\n");
