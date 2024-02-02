@@ -6,7 +6,7 @@ int main() {
     printf("Enter the value of M or Marks Obtained: ");
     scanf("%f", &M);
 
-    while(M<=0 || M>=100) {         //code for limiting the value of marks obtained between 0 and 100;
+    while(M<0 || M>100) {         //code for limiting the value of marks obtained between 0 and 100;
         printf("Enter the correct value of marks obtained: ");
         scanf("%f", &M);
     }
